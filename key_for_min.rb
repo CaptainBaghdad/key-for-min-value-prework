@@ -8,7 +8,10 @@ def key_for_min_value(name_hash)
   name_hash.each do |k,v|
     if v > temp_val 
       temp_val = v
-    
+      
+    end 
+    if temp_val == v 
+      ans = k
   end 
-
+ans
 end
